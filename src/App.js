@@ -25,7 +25,7 @@ export function SignIn(props) {
     });
 
     return unsubscribe;
-  })[props.history];
+  }, [props.history]);
 
   const handleSignIn = () => {
     auth
@@ -100,7 +100,7 @@ export function SignUp(props) {
     });
 
     return unsubscribe;
-  })[props.history];
+  }, [props.history]);
 
   const handleSignUp = () => {
     auth
@@ -177,7 +177,7 @@ export function App(props) {
     });
 
     return unsubscribe;
-  })[props.history];
+  }, [props.history]);
 
   const handleSignOut = () => {
     auth
