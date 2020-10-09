@@ -173,7 +173,7 @@ export function App(props) {
       } else {
         props.history.push("/");
       }
-      // do somethings
+      // do something
     });
 
     return unsubscribe;
